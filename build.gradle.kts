@@ -25,8 +25,8 @@ publishing {
 }
 
 dependencies {
-    implementation("com.github.wabbit-corp:scala-std-evidence:0.1.0")
-    implementation("com.github.wabbit-corp:scala-std-algebra:0.0.1")
+    implementation("one.wabbit:scala-std-evidence:0.1.0")
+    implementation("one.wabbit:scala-std-algebra:0.0.1")
 
     implementation("org.scala-lang:scala3-library_3:3.6.4")
 
