@@ -4,7 +4,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven("https://repo.papermc.io/repository/maven-public/")
+
     }
 }
 
@@ -12,7 +12,7 @@ pluginManagement {
     repositories {
         google()
         gradlePluginPortal()
-        maven("https://repo.papermc.io/repository/maven-public/")
+
     }
     plugins {
         id("org.jetbrains.kotlin.jvm") version "2.3.10"
@@ -32,14 +32,3 @@ pluginManagement {
         id("net.minecrell.plugin-yml.bukkit") version "0.6.0"
     }
 }
-
-include(":scala-std-evidence")
-project(":scala-std-evidence").projectDir = file("../scala-std-evidence")
-include(":scala-std-algebra")
-project(":scala-std-algebra").projectDir = file("../scala-std-algebra")
-include(":scala-std-data-iso")
-project(":scala-std-data-iso").projectDir = file("../scala-std-data-iso")
-include(":scala-std-data-quantified")
-project(":scala-std-data-quantified").projectDir = file("../scala-std-data-quantified")
-include(":scala-std-data-need")
-project(":scala-std-data-need").projectDir = file("../scala-std-data-need")
